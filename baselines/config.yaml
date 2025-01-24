@@ -1,0 +1,6 @@
+seed: 1337
+
+root_dir: "/path/to/dir"
+
+cls_dataset_path: "dataset/classification"
+raw_dataset_path: "dataset/raw_dataset"
