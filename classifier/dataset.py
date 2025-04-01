@@ -25,11 +25,11 @@ class EvalWebDataset:
             split,
             transform=None
     ):
-        self.root = "/nfs/data/vip_at_scale"
+        self.root = "/path/to/root_dir"
         self.aspect = aspect
         self.transform = transform if transform else T.Compose([lambda x: x])
         self.split = split + "_150" if split == "train" else split
-        data_dir = f"cls2/{aspect}/{self.split}/"
+        data_dir = f"classification/{aspect}/{self.split}/"
         shard_count = f"{(len(os.listdir(data_dir))-1):06d}"
         self.shards = braceexpand(data_dir+"shard-{000000.."+shard_count+"}.tar")
 

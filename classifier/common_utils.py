@@ -2,7 +2,7 @@ import json
 import yaml
 
 def get_config():
-    return yaml.safe_load(open("classifier/config.yaml"))
+    return yaml.safe_load(open("config.yaml"))
 
 config = get_config()
 

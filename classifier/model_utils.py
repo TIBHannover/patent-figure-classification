@@ -11,7 +11,7 @@ from lavis.models import load_model, load_preprocess
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
-config = yaml.safe_load(open("classifier/config.yaml"))
+config = yaml.safe_load(open("config.yaml"))
 
 random.seed(config["seed"])
 torch.manual_seed(config["seed"])

@@ -6,6 +6,8 @@
 
 </div>
 
+![workflow_diagram](figure_example.png) 
+
 This is the official GitHub page for the paper ([Link](https://arxiv.org/pdf/2501.12751)):
 
 > Sushil Awale, Eric Müller-Budack, Ralph Ewerth: "Patent Figure Classification using Large Vision-language Models". In: European Conference on Information Retrieval (ECIR), Lucca, Italy, 2025.
@@ -32,13 +34,32 @@ Download the dataset directly from Zenodo.org
 
 For finetuning of $\textbf{InstructBLIP}$ we use the $\textbf{LAVIS}$ (https://github.com/salesforce/LAVIS) library.
 
-More details on [LAVIS/README.md](LAVIS/README.md)
-
 # Evaluation
 
 For all CNN-based baselines, see [baselines/README.md](baselines/README.md).
 
 For all LVLM-based classification, see [classifier/README.md](classifier/README.md)
+
+# Citation
+
+```BibTeX
+@article{awale2025patfigcls,
+  author       = {Sushil Awale and
+                  Eric M{\"{u}}ller{-}Budack and
+                  Ralph Ewerth},
+  title        = {Patent Figure Classification using Large Vision-language Models},
+  journal      = {CoRR},
+  volume       = {abs/2501.12751},
+  year         = {2025},
+  url          = {https://doi.org/10.48550/arXiv.2501.12751},
+  doi          = {10.48550/ARXIV.2501.12751},
+  eprinttype    = {arXiv},
+  eprint       = {2501.12751},
+  timestamp    = {Tue, 25 Feb 2025 13:58:32 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2501-12751.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 # License
 

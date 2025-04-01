@@ -22,7 +22,7 @@ os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
 
-# Aspect/Approach to Num of sample dictionary
+# selected models
 N = {
     'type': {'bc': '54', 'mc-ts': '81', 'oc': '81'}, 
     'projection': {'bc': '81', 'mc-ts': '18', 'oc': '81'}, 
@@ -56,7 +56,7 @@ def main(classifier):
             else:
                 _aspect = "object" if aspect == "object_held_out" else aspect
                 _model_name = model_name.format(_aspect, N[_aspect][classifier])
-                model_dir = f"LAVIS/lavis/experiment_outputs/instructblip/"
+                model_dir = f"LAVIS/lavis/outputs/instructblip/"
                 model_dir += f"{dataset}_{_model_name}"
 
             print(f"Running experiment: {_model_name}/{classifier}/{experiment}")
@@ -87,7 +87,7 @@ def main(classifier):
                 answers = classify(model, loader, template, aspect)
                 compute_accuracy(answers)
 
-            save_dir = f"results_latest/classification/{classifier}/{_model_name}/{experiment}"
+            save_dir = f"results/classification/{classifier}/{_model_name}/{experiment}"
             os.makedirs(save_dir, exist_ok=True)
             save_json(f"{save_dir}/answers.json", answers)
 
