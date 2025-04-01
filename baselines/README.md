@@ -1,6 +1,6 @@
 # Training and Evaluating Baselines
 
-Code to train and test $\textbf{ResNet50}$ and $\textbf{ResNext101} baselines on $\textbf{PatFigCLS} dataset.
+Code to train and test $\textbf{ResNet50}$ and $\textbf{ResNext101}$ baselines on $\textbf{PatFigCLS}$ dataset.
 
 ## Training
 
