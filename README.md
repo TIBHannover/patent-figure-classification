@@ -3,7 +3,6 @@
 # Patent Figure Classification using Large Vision-language Models     
 
 [![Conference](https://img.shields.io/badge/ECIR-2025-F39200.svg)](https://ecir2025.eu)
-[![Conference](https://img.shields.io/badge/ECIR-2025-F39200.svg)](https://ecir2025.eu)
 
 </div>
 
