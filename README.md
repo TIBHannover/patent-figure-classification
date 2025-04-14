@@ -3,14 +3,15 @@
 # Patent Figure Classification using Large Vision-language Models     
 
 [![Conference](https://img.shields.io/badge/ECIR-2025-F39200.svg)](https://ecir2025.eu)
+[![Conference](https://img.shields.io/badge/ECIR-2025-F39200.svg)](https://ecir2025.eu)
 
 </div>
 
 ![workflow_diagram](figure_example.png) 
 
-This is the official GitHub page for the paper ([Link](https://arxiv.org/pdf/2501.12751)):
+This is the official GitHub page for the paper ([Link](https://doi.org/10.1007/978-3-031-88711-6_2)):
 
-> Sushil Awale, Eric Müller-Budack, Ralph Ewerth: "Patent Figure Classification using Large Vision-language Models". In: European Conference on Information Retrieval (ECIR), Lucca, Italy, 2025.
+> Sushil Awale, Eric Müller-Budack, Ralph Ewerth: "Patent Figure Classification using Large Vision-language Models". In: European Conference on Information Retrieval (ECIR), Lucca, Italy, 2025, Lecture Notes in Computer Science, vol 15573. Springer, Cham.
 
 # Datasets
 
@@ -43,21 +44,18 @@ For all LVLM-based classification, see [classifier/README.md](classifier/README.
 # Citation
 
 ```BibTeX
-@article{awale2025patfigcls,
-  author       = {Sushil Awale and
-                  Eric M{\"{u}}ller{-}Budack and
-                  Ralph Ewerth},
-  title        = {Patent Figure Classification using Large Vision-language Models},
-  journal      = {CoRR},
-  volume       = {abs/2501.12751},
-  year         = {2025},
-  url          = {https://doi.org/10.48550/arXiv.2501.12751},
-  doi          = {10.48550/ARXIV.2501.12751},
-  eprinttype    = {arXiv},
-  eprint       = {2501.12751},
-  timestamp    = {Tue, 25 Feb 2025 13:58:32 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2501-12751.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@InProceedings{10.1007/978-3-031-88711-6_2,
+author="Awale, Sushil
+and M{\"u}ller-Budack, Eric
+and Ewerth, Ralph",
+title="Patent Figure Classification Using Large Vision-Language Models",
+booktitle="Advances in Information Retrieval",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="20--37",
+isbn="978-3-031-88711-6",
+doi="https://doi.org/10.1007/978-3-031-88711-6_2"
 }
 ```
 
