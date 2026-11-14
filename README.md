@@ -3,6 +3,7 @@
 # Patent Figure Classification using Large Vision-language Models     
 
 [![Conference](https://img.shields.io/badge/ECIR-2025-F39200.svg)](https://ecir2025.eu)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.12751-b31b1b.svg)](https://arxiv.org/abs/2501.12751)
 
 </div>
 
@@ -42,6 +43,8 @@ For all LVLM-based classification, see [classifier/README.md](classifier/README.
 
 # Citation
 
+If you use this code or the PatFigCLS / PatFigVQA datasets, please cite the paper (preprint: [arXiv:2501.12751](https://arxiv.org/abs/2501.12751)). GitHub's "Cite this repository" button uses [CITATION.cff](CITATION.cff).
+
 ```BibTeX
 @InProceedings{10.1007/978-3-031-88711-6_2,
 author="Awale, Sushil
@@ -54,7 +57,7 @@ publisher="Springer Nature Switzerland",
 address="Cham",
 pages="20--37",
 isbn="978-3-031-88711-6",
-doi="https://doi.org/10.1007/978-3-031-88711-6_2"
+doi="10.1007/978-3-031-88711-6_2"
 }
 ```
 
